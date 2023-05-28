@@ -20,5 +20,11 @@ while True:
         functions.add_data()
     elif mode == 3:
         functions.find_data()
+    elif mode == 4:
+        functions.search()
+    elif mode == 5:
+        functions.change_data()
+    elif mode == 6:
+        functions.enter_contact()
     else:
         break
